@@ -1,0 +1,17 @@
+field,value
+S0,90
+u,1.5
+d,0.2
+r,0.05
+n,12
+K,105
+option,put
+style,american
+risk_neutral_p,0.6538461538461539
+risk_neutral_q,0.34615384615384615
+value,65.94689450856475
+european_value,45.62037666238046
+early_exercise_premium,20.326517846184295
+delta0,-0.23210144792166001
+cash0,86.83602482151416
+early_exercise_nodes,52

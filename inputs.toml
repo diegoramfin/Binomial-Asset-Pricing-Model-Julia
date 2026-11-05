@@ -1,0 +1,12 @@
+# Binomial model inputs (Shreve notation). Edit, then run:
+#   julia --project=. run.jl
+
+S0 = 90.0        # stock price at time 0
+u = 1.5           # up factor
+d = 0.2           # down factor
+r = 0.05          # one-period risk-free rate; need 0 < d < 1 + r < u
+n = 12             # number of periods
+
+K = 105.0         # strike
+option = "put"    # "call" or "put"
+style = "american" # "european" or "american"

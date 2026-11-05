@@ -11,3 +11,4 @@ Manifest.toml
 .DS_Store
 *.swp
 .devin/
+.vscode/
