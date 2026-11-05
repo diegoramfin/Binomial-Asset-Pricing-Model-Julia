@@ -4,9 +4,8 @@ Manifest.toml
 *.jl.*.cov
 *.jl.mem
 
-# Generated output
-output/
-*.png
+# Excel lock files
+~$*
 
 # Editor / OS
 .DS_Store
